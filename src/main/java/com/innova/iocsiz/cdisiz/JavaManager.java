@@ -4,7 +4,7 @@ public class JavaManager {
 	public void newjavaVersion() {
 		
 		JavaVersion javaVersion = new JavaVersion();
-		javaVersion.javaVersion();
+		javaVersion.javaVersion("20");
 		
 	}
 	
