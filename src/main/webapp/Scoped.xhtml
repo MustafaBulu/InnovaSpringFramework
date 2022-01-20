@@ -14,7 +14,9 @@
    <h:body>
   
    <h:form>
-   <h:outputText value="#{tuketenCDI.tuketenList}" />
+   Request Scoped:	<h:outputText value="#{requestCDI.scoped()}" /> <br/>
+   Session Scoped:	<h:outputText value="#{sessionCDI.scoped()}" /> <br/>
+   Application Scoped:	<h:outputText value="#{applicationCDI.scoped()}" /> <br/>
    
    
    </h:form>
