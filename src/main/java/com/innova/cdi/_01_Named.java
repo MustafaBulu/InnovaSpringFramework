@@ -10,17 +10,17 @@ import javax.inject.Named;
 @Named
 @ApplicationScoped
 
-public class Computer implements Serializable {
+public class _01_Named implements Serializable {
 	
 	private String computerName;
 	
 	// parametresiz constructor
-	public Computer() {
+	public _01_Named() {
 		this.computerName = "Bilgisayar Adı 521512f1";
 	}
 	// parametreli constuctor
 	
-	public Computer(String computerName) {
+	public _01_Named(String computerName) {
 		this.computerName = computerName;
 	}
 	
