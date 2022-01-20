@@ -22,4 +22,7 @@
  <alternatives>
   <class>com.innova.alternative.Java17</class>
  </alternatives>
+ <interceptors>
+  <class>com.innova.interceptor.YolKesiciMethod</class>
+ </interceptors>
 </beans>
